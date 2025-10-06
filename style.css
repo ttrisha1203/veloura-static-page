@@ -1,0 +1,135 @@
+.heading-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.heading{
+    font-family: 'Playfair Display', sans-serif ;
+    font-size: 70px;
+    letter-spacing: 0.12em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.sub-heading{
+    font-family: 'Playfair Display', sans-serif ;
+    font-size: 20px;
+    letter-spacing: -0.01em;
+    font-weight: 300;
+    margin-top: -60px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.nav-left{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    position: absolute;
+    top: 50px;   
+    left: 25px;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.nav-right{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    flex: 1;            
+    text-align: center; 
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.img{
+   width: 100vw; 
+  height: auto;  
+  display: block;
+}
+
+.hero-section{
+    position: relative;
+}
+
+.top1{
+    position: absolute;
+    font-size: 64px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    top: 50%;           
+    left: 50%;          
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.top2{
+    position: absolute;
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    top: 60%;          
+    left: 50%;          
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.pill {
+  position: absolute;
+  top: 70%;                
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;  
+  gap:110px;           
+}
+
+.pill1, .pill2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+  background-color: black;
+  width: 257px;
+  height: 74px;
+  display: flex;            
+  justify-content: center;   
+  align-items: center;       
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+
+
+
+
+
